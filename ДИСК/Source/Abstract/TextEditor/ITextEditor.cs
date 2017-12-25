@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace CourseWork.Abstract.TextEditors {
-    interface IFactoryEditor {
-        ITextEditor GetEditor(int type);
+    interface ITextEditor {
+        string EditText(string text);
     }
 }
